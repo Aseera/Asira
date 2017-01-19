@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_screen_background"
+    tools:context="com.asira.asira.MainActivity">
+
+    <Button
+        android:id="@+id/mWebView"
+        android:padding="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="WEB VIEW"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="32dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="BUTTONS"
+        android:padding="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+
+        android:id="@+id/mButtons"
+        android:layout_below="@+id/mWebView"
+        android:layout_marginTop="24dp"
+        android:layout_alignRight="@+id/mWebView"
+        android:layout_alignEnd="@+id/mWebView"
+        android:layout_alignLeft="@+id/mWebView"
+        android:layout_alignStart="@+id/mWebView" />
+
+    <Button
+        android:text="VIEW PAGER"
+        android:padding="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+
+        android:layout_below="@+id/mButtons"
+        android:layout_alignLeft="@+id/mButtons"
+        android:layout_alignStart="@+id/mButtons"
+        android:layout_marginTop="24dp"
+        android:id="@+id/button2"
+        android:layout_alignRight="@+id/mButtons"
+        android:layout_alignEnd="@+id/mButtons" />
+
+    <Button
+        android:text="SPINNERS"
+        android:padding="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/button2"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:layout_marginTop="21dp"
+        android:id="@+id/button3"
+        android:layout_alignRight="@+id/button2"
+        android:layout_alignEnd="@+id/button2" />
+</RelativeLayout>
